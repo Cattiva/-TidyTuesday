@@ -10,6 +10,7 @@ library(sf)
 library(usmap)
 library(transformr)
 library(maps)
+library(cluster)
 
 #Read from locale or Github
 park_visits <- readr::read_csv(str_c(getwd(), "/national_parks.csv"))
